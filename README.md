@@ -1,7 +1,10 @@
 # Markdown书写规范
 
 开始记录如何编写  
-md 即 Markdown，在线编辑工具(http://mahua.jser.me/)或者(https://maxiang.io/)
+md 即 Markdown，  
+在线编辑工具(http://mahua.jser.me/)  
+或者  
+(https://maxiang.io/)
 
 ### 1、标题
 ---
