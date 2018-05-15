@@ -1,7 +1,8 @@
 # blog
 工作中的记录
 
-开始记录如何编写
+开始记录如何编写  
+md 即 Markdown，在线编辑工具(http://mahua.jser.me/)
 
 ### 1、标题
 ---
