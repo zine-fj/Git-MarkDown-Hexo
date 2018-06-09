@@ -13,9 +13,15 @@ git clone https://github.com/zine-fj/zine-fj.github.io.git
 ``` powershell
 touch .gitignore
 ```
-4. 创建一个叫hexo的分支
+4. 切换并创建一个叫hexo的分支
 ``` powershell
 git checkout -b hexo
+
+# 切换分支
+git checkout hexo
+
+# 查看分支
+git branch
 ```
 5. 将复制过来的文件推送到github
 ``` powershell
