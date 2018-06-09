@@ -30,10 +30,30 @@ git commit -m "新建分支"
 git remote add origin https://github.com/zine-fj/zine-fj.github.io.git
 git push -u origin hexo
 ```
-6. 以后在其他电脑上用hexo写博客，就可以直接将创建的分支克隆下来，在用 ``yarn`` 安装依赖就可以了
+6. 以后在其他电脑上用hexo写博客，就可以直接将创建的分支克隆下来
 ``` powershell
 git clone -b hexo https://github.com/zine-fj/zine-fj.github.io.git hexo
 ```
-7. 做完之后，每次写完博客发布之后，不要忘了还要 ``git push`` 把源文件推到分支上
+7. 克隆下来后首先在此文件夹中通过命令提示符输入 ``hexo -v`` 查看hexo是否可用。若不可用则根据提示安装(注意：用cnpm安装可能会有问题)
+``` powershell
+npm i hexo --save
+```
+8. 接着安装依赖包
+``` powershell
+yarn
+```
+9. 执行hexo操作
+``` powershell
+在本地查看示例(localhost:4000)
+hexo g
+hexo s
 
-注意：如果用 ``hexo s`` 查看 [localhost:4000](localhost:4000) 是空白的话，可能是因为没有获取到主题(主题在 ``themes`` 文件夹中)。
+hexo new post "title"
+hexo d -g
+```
+
+
+注意：
+1. 如果 ``hexo d -g``部署没有成功并显示 ``Host key verification failed``则说明本地电脑没有ssh秘钥(我的做法是再建立一个秘钥)
+2. 做完之后，每次写完博客发布之后，不要忘了还要 ``git push`` 把源文件推到分支上
+3. 如果用 ``hexo s`` 查看 [localhost:4000](localhost:4000) 是空白的话，可能是因为没有获取到主题(主题在 ``themes`` 文件夹中)。
