@@ -73,17 +73,17 @@ npm i hexo-deployer-git --save
 * 如果出现 ``publickey`` 错误信息，则可能是秘钥配置问题，查看另一篇博客 hexo-git-ssh
 
 ## 主题推荐
-两个主题推荐：
-一个是github上Star排名第五的[Yilia](http://litten.me/)，
-另一个是github上Star排名第一的[next](https://notes.iissnan.com/)。
-我目前用的是next的主题
+两个主题推荐：  
+一个是github上Star排名第五的[Yilia](http://litten.me/)，  
+另一个是github上Star排名第一的[next](https://notes.iissnan.com/)。  
+我目前用的是next的主题  
 
 ## Next主题配置
-在官网中看文档即可，看这个官网可以少踩很多坑...
-[Next主题配置官网](http://theme-next.iissnan.com/getting-started.html)
+在官网中看文档即可，看这个官网可以少踩很多坑...  
+[Next主题配置官网](http://theme-next.iissnan.com/getting-started.html)  
 
-1. 注意区分：有两个 ``_config.yml`` 文件，一个在根目录，一个在主题(next)目录。
-2. 主题切换：在根目录中修改：
+1. 注意区分：有两个 ``_config.yml`` 文件，一个在根目录，一个在主题(next)目录。  
+2. 主题切换：在根目录中修改：  
 ``` shell
 theme:next
 ```
@@ -91,12 +91,12 @@ theme:next
 4. 剩下的，还是看官网吧！
 
 ## 添加评论
-* 来必力：https://livere.com （来自韩国，使用邮箱注册。）
-* 畅言： http://changyan.kuaizhan.com （安装需要备案号。不太好用。）
-* Gitment： https://github.com/imsun/gitment （有点小bug，比如说每次需要手动初始化，登录时会跳到主页。。）
-* Valine: https://github.com/xCss/Valine (基于Leancloud的极简风评论系统，用了下，没效果，是我Next主题的原因还是？）
-所以最终推荐使用：来比力，注册登录运行
-在代码管理中找到 ``data-id`` 将其拷贝到主题目录下的 ``_config.yml`` 中的 ``livere_uid``
-注意：如果不行，在主题目录下 ``layout\_partials\comments.swig`` 找到 ``noscript`` 所在的判断语句，删除其下内容即可
+* 来必力：https://livere.com （来自韩国，使用邮箱注册。）  
+* 畅言： http://changyan.kuaizhan.com （安装需要备案号。不太好用。）  
+* Gitment： https://github.com/imsun/gitment （有点小bug，比如说每次需要手动初始化，登录时会跳到主页。。）  
+* Valine: https://github.com/xCss/Valine (基于Leancloud的极简风评论系统，用了下，没效果，是我Next主题的原因还是？）   
+所以最终推荐使用：来比力，注册登录运行  
+在代码管理中找到 ``data-id`` 将其拷贝到主题目录下的 ``_config.yml`` 中的 ``livere_uid``  
+注意：如果不行，在主题目录下 ``layout\_partials\comments.swig`` 找到 ``noscript`` 所在的判断语句，删除其下内容即可  
 
 参考网址：(https://blog.csdn.net/gdutxiaoxu/article/details/53576018)
