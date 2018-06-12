@@ -39,7 +39,7 @@ git config --global user.email "747810974@qq.com"
 #生成秘钥
 ssh-keygen -t rsa -C "747810974@qq.com"
 ```
-1. 配置Deployment，在hexo根目录中的 ``_config.yml``，找到Deployment，然后操作如下：
+2. 配置Deployment，在hexo根目录中的 ``_config.yml``，找到Deployment，然后操作如下：
 ``` shell
 deploy:
   type: git
