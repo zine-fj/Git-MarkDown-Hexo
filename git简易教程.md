@@ -10,7 +10,7 @@ git add .
 ```
 3. 将暂存区中文件提交到工作区
 ``` shell
-git -commit -m '备注'
+git commit -m '备注'
 ```
 4. 将提交的文件关联到github
 ``` shell
