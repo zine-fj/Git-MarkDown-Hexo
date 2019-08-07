@@ -24,3 +24,52 @@ git push -u origin master
 ```
 
 
+## 分支问题
+1、创建分支
+``` shell
+git branch 分支名
+```
+2、查看分支
+``` shell
+git branch
+或者：git branch -a
+```
+3、切换分支
+``` shell
+git checkout 分支名
+```
+4、分支同时创建和切换
+``` shell
+git checkout -b 分支名
+```
+5、分支合并（此时主分支为master，要将develop合并到master）
+``` shell
+git merge develop
+```
+6、分支删除
+``` shell
+git checkout -d 分支名
+```
+7、恢复误删分支
+``` shell
+git log --branches="被删的分支名"
+git branch develop 版本
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
