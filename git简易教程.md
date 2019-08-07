@@ -61,6 +61,17 @@ git log --branches="被删的分支名"
 git branch develop 版本
 ```
 
+## 切换远程仓库
+1、比如从 git 的 eg 仓库切换到 git 的 demo 仓库
+```shell
+git remote rm origin
+git remote add origin https://github.com/zine-fj/demo.git
+```
+2、查看仓库
+```shell
+git remote -v
+```
+
 
 
 
