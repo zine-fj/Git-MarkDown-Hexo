@@ -31,8 +31,10 @@ git branch 分支名
 ```
 2、查看分支
 ``` shell
+本地
 git branch
-或者：git branch -a
+远程
+git branch -a
 ```
 3、切换分支
 ``` shell
@@ -48,7 +50,10 @@ git merge develop
 ```
 6、分支删除
 ``` shell
+本地
 git checkout -d 分支名
+远程
+git push origin --delete 分支名
 ```
 7、恢复误删分支
 ``` shell
